@@ -22,7 +22,16 @@
 
 @import '@/assets/style.sass'
 
+.menuArea
+  width: 100%
+  height: 150%
+  position: relative
+  overflow: hidden
+  display: flex
+  justify-content: center
+  background-image: url(../assets/bg3.png)
 
+  box-shadow: inset 0 0 0 5000px rgba(0, 0, 0, 0.5)
 .location
     display: flex
     background:  lightblue
