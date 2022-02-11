@@ -35,6 +35,7 @@ export default defineComponent({
   align-items: flex-end
   justify-content: flex-end
   color: #a9aaaa
+  
   span 
     margin: 2% 5%
 .left
@@ -49,4 +50,8 @@ export default defineComponent({
     background-repeat: no-repeat
     background-position: center
     background-image: url('../assets/logo3.png') 
+
+
+
+
 </style>

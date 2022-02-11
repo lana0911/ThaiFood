@@ -10,8 +10,7 @@
     GroupMenu()
   .realMenu#scrollBg
     RealMenu()
-  .location#scrollBg
-    Loctaion()
+  Loctaion()
   .tele
     Tele()
 </template>
@@ -32,17 +31,7 @@
   background-image: url(../assets/bg3.png)
 
   box-shadow: inset 0 0 0 5000px rgba(0, 0, 0, 0.5)
-.location
-    display: flex
-    background:  lightblue
-    width: 100%
-    height: 75%
-    background-repeat: no-repeat
-    background-size: 120%
-    background-position: center
-    // background-image: url('https://images.unsplash.com/photo-1464901978424-7ccc357ddf95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80')
-    background-image: url(../assets/bg3.png)
-    box-shadow: inset 0 0 0 5000px rgba(0, 0, 0, 0.1)
+
 
 </style>
 
